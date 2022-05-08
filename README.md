@@ -8,4 +8,4 @@ Simple and verbose shell script to create backups of your Valheim game world.
 4. **(Optional)** Set the `maxBackups` variable to choose how many backups you want to have at most.
 
 That's it!
-The script is pretty verbose so it will tell you if a directory couldn't be found or which files it's going to delete due to the maximum amounts of backups ([Step 4](https://github.com/moeux/Valheim-Backup-Creator/edit/main/README.md#how-to-use)) reached.
+The script is pretty verbose so it will tell you if a directory couldn't be found or which files it's going to delete due to the maximum amounts of backups ([Step 4](https://github.com/moeux/Valheim-Backup-Creator/blob/main/README.md#how-to-use)) reached.
