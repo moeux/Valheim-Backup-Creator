@@ -43,7 +43,7 @@ if [ "${backupsAmount}" -gt "${maxBackups}" ]; then
   cd ${backupDir}
   echo "${deletedFiles}" | xargs -d '\n' rm
 else
-  echo "Max backups amount (${maxBackups}) not exceeded (${backupsAmount} backups), nothing to clean up."
+  echo "Max backups amount (${maxBackups} backups) not exceeded (${backupsAmount} backups), nothing to clean up."
 fi
 
 echo "Currently stored $(ls $backupDir | wc -l) backups."
